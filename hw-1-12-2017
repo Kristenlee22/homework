@@ -6,3 +6,8 @@
 
 2. Relative Path Resolution
 -4. original pnas_final pnas_sub
+
+3. ls Reading Comprehension
+-2. ls -r -F
+-3. ls -r -F /Users/backup
+-4. Either #2 or #3 above, but not #1
