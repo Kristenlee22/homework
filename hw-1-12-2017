@@ -15,3 +15,6 @@
 4. Exploring more ls Arguments
 -ls -l uses a long listing format of the names and extra information like the date and time of the file or directories last modification
 -ls -h prints human readable sizes (e.g. 1K, 234M, 2G)
+
+5. Listing Recursively and By Time
+- directories are listed in order alphabetically, and the directories in these directories are sorted by modification time, newest first
