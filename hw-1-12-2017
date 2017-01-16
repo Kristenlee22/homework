@@ -11,3 +11,7 @@
 -2. ls -r -F
 -3. ls -r -F /Users/backup
 -4. Either #2 or #3 above, but not #1
+
+4. Exploring more ls Arguments
+-ls -l uses a long listing format of the names and extra information like the date and time of the file or directories last modification
+-ls -h prints human readable sizes (e.g. 1K, 234M, 2G)
