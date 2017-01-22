@@ -1,0 +1,62 @@
+Question1:
+Rodentia
+Rodentia
+Rodentia
+Macroscelidea
+Rodentia
+
+
+Question 2:
+There are 153 unique families
+
+
+Question 3:
+ 1189  echo 'aaaabbb' | tr 'a' 'b'
+ 1190  echo '123456789' | tr 1-5 0
+ 1191  echo 'ACtGGcAaTT' | tr actg ACTG
+ 1192  echo 'ACtGGcAaTT' |tr [:lower;] [:upper:]
+ 1193  echo 'ACtGGcAaTT' | tr [:lower;] [:upper:]
+ 1194  echo 'ACtGGcAaTT' | tr [:lower:] [:upper:]
+ 1195  echo 'aabbccddee' | tr a-c 1-3
+ 1196  echo 'aaaaabbbb' | tr -d a
+ 1197  echo 'aaaaabbbb' | tr -s a
+ 1198  tr ' ' '|t' < inputfile.csv > outputfile.csv
+ 1199  cd ../sandbox/
+ 1200  cd Desktop
+ 1201  cd eeb-177
+ 1202  cd CSB/
+ 1203  ls
+ 1204  cd unix
+ 1205  ls
+ 1206  cd sandbox/
+ 1207  tail -n +2 ../data/Pacifici2013_data.csv 
+ 1208  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ';' -f 2-6 | tr -s ';' ' ' 
+ 1209  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6
+ 1210  tail - n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6 > BodyM.csv
+
+
+
+Question 4:
+
+10th largest species: Cetartiodactyla Balaenidae Eubalaena Eubalaena glacialis 22999999.91
+
+10th smallest species: Chiroptera Vespertilionidae Pipistrellus Pipistrellus nanulus 2.51
+
+
+
+Question 5:
+ 1241  wc -l BodyM.csv
+ 1242  grep Vombatidae BodyM.csv
+ 1243  grep -c Vombatidae BodyM.csv 
+ 1244  grep Bos BodyM.csv 
+ 1245  grep -w Bos BodyM.csv 
+ 1246  grep -i Bos BodyM.csv 
+ 1247  grep -B 2 -A 2 "Gorilla gorilla" BodyM.csv 
+ 1248  grep -n "Gorilla gorilla" BodyM.csv 
+ 1249  grep Gorilla BodyM.csv | grep -v gorilla
+ 1250  grep -w "Gorilla\|Pan" BodyM.csv
+ 1251  cd ~/CSB/unix
+ 1252  grep -r "Gorilla" data/
+
+
+
