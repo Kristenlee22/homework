@@ -59,4 +59,18 @@ Question 5:
  1252  grep -r "Gorilla" data/
 
 
+Question 6: 1.11.1
+2.) 556 KiB 
+eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ ls -s ../data/Marra2014_data.fasta 
+556 ../data/Marra2014_data.fasta
+4.)eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep -c "isogroup00036" my_file.fasta 
+16
+6.) eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ grep "isogroup" my_file.fasta | uniq -u | wc -l
+955
+7.) >contig00302  length=1014  numreads=3330  gene=isogroup00002  status=it_thresh
+
+
+
+
+
 
