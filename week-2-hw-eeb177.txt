@@ -70,6 +70,23 @@ eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/sandbox$ ls -s ../da
 7.) >contig00302  length=1014  numreads=3330  gene=isogroup00002  status=it_thresh
 
 
+Question 8:
+1.Using Grep
+- 3. grep -w "of" haiku.txt
+2.find Pipeline Reading Comprehension
+wc -l $(find . -name '*.dat') | sort -n
+- this shell command runs whats inside the $(), then it replaces it with the commands output, and organizes (sorts) the wc -l by numeric order
+3. Matching and Subtracting 
+- 2. find /data -name ose.dat | grep -v temp
+4. Tracking a Species
+-cut -d , -f 1,3 | grep -w $1 -r $2 | cut -d : -f 2 > $1.txt
+5. Little Women
+for file in Littlewomen.txt
+do grep -n 'Jo|Meg|Beth|Amy' $file | wc -l 
+done
+6. Finding files with different properties
+- find ./ -type f -mtime -1 user ahmed
+
 
 
 
