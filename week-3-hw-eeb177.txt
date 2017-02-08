@@ -151,11 +151,17 @@ Number of rows: 97
 Number of columns: 81
 
 
-2)#!/bash/bin
+2)
+
+#!/bash/bin
 
 
 for files in Saavedra2013/*.txt
-do echo -n $files  ; cut -d: -f1 $files | wc -l ; head -1 $files | tr ' ' '\n' | wc -l
+
+do 
+    echo -n $files  ; 
+    cut -d: -f1 $files | wc -l ; 
+    head -1 $files | tr ' ' '\n' | wc -l
 done
 
 eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/CSB/unix/data$ bash script.sh
