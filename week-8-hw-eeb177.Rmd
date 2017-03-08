@@ -2,7 +2,7 @@
 title: "hw week 8 rmarkdown"
 author: "Kriste Lee"
 date: "March 7, 2017"
-output: html_document
+output: md_document
 ---
 
 ```{r}
@@ -71,4 +71,18 @@ Questions:
 3.65 different genera
 `eeb177-student@eeb177-VirtualBox:~/Desktop/eeb-177/homework/canids$ cut -f1 -d " " sorted_canid_ranges.csv | uniq -c | wc -l`
 4. based on the pdf image Metalopex merriami
+
+
+## Part 2
+Exploring Data Frames
+```{r}
+df <- data.frame(first = c('Kristen'),
+                 last = c('Lee'),
+                 lucky_number = c(22),
+                 stringsAsFactors = FALSE)
+df <- rbind(df, list('Sabrina', 'Cooper', 25) )
+df <- cbind(df, coffeebreak = c("YES","NO"))
+df
+```
+
 
